@@ -13,6 +13,9 @@ const conversions = {
     pt: 96 / 72,
     pc: 16,
   },
+  rpx: {
+    rpx: 1
+  },
   cm: {
     px: 2.54 / 96,
     cm: 1,

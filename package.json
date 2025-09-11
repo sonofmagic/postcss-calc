@@ -1,6 +1,6 @@
 {
-  "name": "postcss-calc",
-  "version": "10.1.1",
+  "name": "@weapp-tailwindcss/postcss-calc",
+  "version": "1.0.0",
   "description": "PostCSS plugin to reduce calc()",
   "keywords": [
     "css",
@@ -25,7 +25,8 @@
     "prepare": "pnpm run build && tsc",
     "build": "jison ./parser.jison -o src/parser.js",
     "lint": "eslint . && tsc",
-    "test": "node --test"
+    "test": "node --test",
+    "publish-packages": "pnpm publish --no-git-checks"
   },
   "author": "Andy Jansson",
   "license": "MIT",

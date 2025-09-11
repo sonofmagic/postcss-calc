@@ -3,6 +3,8 @@
 [![NPM Version][npm-img]][npm-url]
 [![Support Chat][git-img]][git-url]
 
+Fork from [postcss-calc@10.1.1](https://github.com/postcss/postcss-calc)
+
 [PostCSS Calc] lets you reduce `calc()` references whenever it's possible.
 When multiple units are mixed together in the same expression, the `calc()`
 statement is left as is, to fallback to the [W3C calc() implementation].
