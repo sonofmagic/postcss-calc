@@ -1,6 +1,5 @@
 'use strict';
-const { test } = require('node:test');
-const assert = require('node:assert/strict');
+import { test, assert } from 'vitest'
 
 const convertUnit = require('../src/lib/convertUnit.js');
 

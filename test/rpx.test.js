@@ -1,6 +1,6 @@
 'use strict';
-const { test } = require('node:test');
-const assert = require('node:assert/strict');
+import { test, assert } from 'vitest'
+
 const postcss = require('postcss');
 
 const reduceCalc = require('../src/index.js');
